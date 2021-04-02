@@ -1,9 +1,17 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 h1 {
   color: red;
 }
+.dark {
+  font-weight: bold;
+  color: darkred;
+}
 .phone {
-  color: brown;
-  text-decoration: overline underline;
+  color: blue;
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
 }
 .pill {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";

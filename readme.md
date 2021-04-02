@@ -6,7 +6,13 @@ Order of styles applied:
 - Internal CSS
 - Inline CSS
 
-## Various examples of selctors
+## Basic selctors
+
+- Tag Name
+- Class Name
+- By Id
+- Attribute
+- Everything
 
 ### TAG name
 
@@ -22,15 +28,30 @@ Examples
 
 `wikitable.sortable.plainrowheaders.jquery-tablesorter`
 
-### id
+### By id
 
 Example `#phone`
+
+### Everything
+
+Example `*`
 
 ### attribute
 
 `[style="display: none;"]`
 
+## Variations
+
+### Both Tag and Class Names
+
+### 
+
 ## CSS Combinators
+
+- descendant
+- child
+- adjacent sibling
+- general sibling
 
 ### 1. descendant selector (space)
 
