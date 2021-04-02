@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <!-- <style>
+        h1 {
+            color: green;
+        }
+    </style> -->
+    <script>
+        function showPhone() {
+            el = document.getElementById("mobile")
+            if (el.style.display == "none") {
+                el.style.display = "block"
+            } else {
+                el.style.display = "none"
+            }
+
+        }
+    </script>
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>CSS Selectors</h1>
+    <p id="first"> This document was created for learning CSS</p>
+    <!-- <h1 style="color:blue">CSS Selectors</h1> -->
+    <div>
+        Phone: <a id="phone" class="phone">12345</a>
+    </div>
+    <div>
+        <p>Here is hidden phone number</p>
+        Mobile Phone:<a href="#" onclick="showPhone()" class="pill">show</a>
+        <a id="mobile" style="display: none;" class="phone" href="tel:12345">12345</a>
+    </div>
+    <p>this is p before p </p>
+    <p>this is p before div#plus</p>
+    <div id="plus">
+        <p> This is p inside div</p>
+    </div>
+    <p>this is first p after div#plus</p>
+    <p>this is second p after div#plus</p>
+    <table>
+        <tr>
+            <th>Country</th>
+            <th>Population</th>
+        </tr>
+        <tr>
+            <td>China</td>
+            <td>1.4 Billion</td>
+        </tr>
+        <tr>
+            <td>India</td>
+            <td>1.3 Billion</td>
+        </tr>
+        <tr>
+            <td>USA</td>
+            <td>0.3 Billion</td>
+        </tr>
+
+    </table>
+</body>
+
+</html>
