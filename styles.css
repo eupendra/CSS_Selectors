@@ -4,6 +4,11 @@
 h1 {
   color: red;
 }
+
+.heading {
+  color: navy;
+  font-size: 1.2em;
+}
 .dark {
   font-weight: bold;
   color: darkred;

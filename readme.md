@@ -10,31 +10,22 @@ Order of styles applied:
 
 - Tag Name
 - Class Name
-- By Id
+- Id
 - Attribute
-- Everything
 
 ### TAG name
 
-Examples:
- `p`
- `h1`
+ - `p` - Selects `<p>` elements
+ - `h1` - Selects `<h>` elements
 
 ### Class name
 
-Examples
 
-`.phone`
-
-`wikitable.sortable.plainrowheaders.jquery-tablesorter`
+- `.phone` Selects elements with class `phone`
 
 ### By id
 
-Example `#phone`
-
-### Everything
-
-Example `*`
+ `#phone`
 
 ### attribute
 
@@ -42,9 +33,21 @@ Example `*`
 
 ## Variations
 
-### Both Tag and Class Names
+### Multiple classes
 
-### 
+- `.heading.dark` Selects element with these two classes
+- `wikitable.sortable.plainrowheaders.jquery-tablesorter` selects elements with all these classes
+
+### More than one elements
+
+- `h1,h2` Selects `h1` **and** `h2` elements
+
+### All elements
+
+- `*` Selects **all** elements
+
+## Advanced attribute Selections
+
 
 ## CSS Combinators
 
@@ -53,37 +56,39 @@ Example `*`
 - adjacent sibling
 - general sibling
 
-### 1. descendant selector (space)
+### Descendants  (space)
 
-Example `div p` selects all `p` that are descedents (children, grandchildren, etc) of a `div` tag
+ `div p` selects all `p` that are descedents (children, grandchildren, etc) of a `div` tag
 
-### 2. child selector (>)
+### Child (>)
 
-Example `div > p` selects all `p` that are children of a `div` tag
+ `div > p` selects all `p` that are children of a `div` tag
 
-### 3. adjacent sibling selector (+)
+### Adjacent Sibling (+)
 
-Example `div + p` selects ONE `p` that is immediately AFTER  `div` tag
+ `div + p` selects ONE `p` that is immediately AFTER  `div` tag
 
-### 4. general sibling selector (~)
+### General Sibling (~)
 
-Example `div + p` selects ALL `p` that is immediately AFTER  `div` tag
+ `div + p` selects ALL `p` that is immediately AFTER  `div` tag
 
 ## Psedo-class
+
+### last-child
+
+- `td:last-child` Selects every `td` that is last child of it's parent
+
+### first-child
+
+- `td:first-child` Selects every `td` that is first child of it's parent
 
 ### nth-child(n)
 
 Elements that are n-th child of it's element
 
-Example link [Wikipedia Countries](https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population)
+ link [Wikipedia Countries](http//en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population)
 
 `table.wikitable td:nth-child(3)` Selects population column
 NOTE: `table.wikitable td:nth-child(1)` doesnt select anything as the parent of `td` is `tr`, and `tr`'s first child is NOT `td` but `th`
 
     HINT: Think of girls and boys. A boy who was born after a girl, the boy is the second child. If you look for a first child who is a boy, you will not find anyone.
-
-### last-child
-
-### first-child
-
-
