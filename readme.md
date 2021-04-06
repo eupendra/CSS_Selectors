@@ -15,11 +15,10 @@ Order of styles applied:
 
 ### TAG name
 
- - `p` - Selects `<p>` elements
- - `h1` - Selects `<h>` elements
+- `p` - Selects `<p>` elements
+- `h1` - Selects `<h>` elements
 
 ### Class name
-
 
 - `.phone` Selects elements with class `phone`
 
