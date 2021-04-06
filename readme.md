@@ -1,6 +1,14 @@
-# What is CSS
+# CSS Selectors
 
-Order of styles applied:
+## What is CSS
+
+Cascading Style Sheets.
+
+> The name *cascading* comes from the specified priority scheme to determine which style rule applies if more than one rule matches a particular element
+
+*Source: [Wikipedia](https://en.wikipedia.org/wiki/CSS)*
+
+## Order of styles applied
 
 - External CSS
 - Internal CSS
