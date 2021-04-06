@@ -48,6 +48,25 @@ Order of styles applied:
 
 ## Advanced attribute Selections
 
+### attribute Name and Exact Value
+
+`[href="https://www.google.com"]`
+
+### Has attribute, any value
+
+`[data-country]`
+
+### Value **begins** with
+
+`[href^=tel]`
+
+### Value **ends** with
+
+`[href$=es]`
+
+### Value **contains**
+
+`[href*=google]`
 
 ## CSS Combinators
 
