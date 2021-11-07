@@ -96,7 +96,7 @@ Cascading Style Sheets.
 
 ### General Sibling (~)
 
- `div + p` selects ALL `p` that is immediately AFTER  `div` tag
+ `div ~ p` selects ALL `p` that is immediately AFTER  `div` tag
 
 ## Psedo-class
 
