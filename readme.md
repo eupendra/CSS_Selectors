@@ -112,7 +112,7 @@ Cascading Style Sheets.
 
 Elements that are n-th child of it's element
 
- link [Wikipedia Countries](http//en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population)
+ link [Wikipedia Countries](http://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population)
 
 `table.wikitable td:nth-child(3)` Selects population column
 NOTE: `table.wikitable td:nth-child(1)` doesnt select anything as the parent of `td` is `tr`, and `tr`'s first child is NOT `td` but `th`
